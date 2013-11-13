@@ -14,7 +14,7 @@ hostname = socket.gethostname()
 if os.path.exists(path) == False:
         exit()
 
-ExcludeHosts = [ 'zabbix1.mlan', 'zabbix1.msk', 'monitoring4.ulan' ]
+ExcludeHosts = [ 'hostname1', 'hostname2', 'hostname3' ]
 
 if hostname in ExcludeHosts:
         treshold = 100
